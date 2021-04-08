@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritersMuse", "WritersMuse.csproj", "{CA3FC589-63A4-4C94-89D5-CE43855FAA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quant.Spice.Test.UI.Common", "..\..\Common\Common\Quant.Spice.Test.UI.Common.csproj", "{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quant.Spice.Test.UI.Common.Web", "..\..\Common\Common.Web\Quant.Spice.Test.UI.Common.Web.csproj", "{82C08978-18B9-4A46-B192-4D90532850C2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExceptionHandling", "..\..\..\..\Source\Common Files\Assemblies\ExceptionHandling\ExceptionHandling.vbproj", "{441F1207-726E-4841-8208-7523221CC328}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QSpiceEncryption", "..\..\..\..\Source\Common Files\Assemblies\QSpiceEncryption\QSpiceEncryption.vbproj", "{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA3FC589-63A4-4C94-89D5-CE43855FAA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3FC589-63A4-4C94-89D5-CE43855FAA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3FC589-63A4-4C94-89D5-CE43855FAA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3FC589-63A4-4C94-89D5-CE43855FAA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C08978-18B9-4A46-B192-4D90532850C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C08978-18B9-4A46-B192-4D90532850C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C08978-18B9-4A46-B192-4D90532850C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C08978-18B9-4A46-B192-4D90532850C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441F1207-726E-4841-8208-7523221CC328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441F1207-726E-4841-8208-7523221CC328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441F1207-726E-4841-8208-7523221CC328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441F1207-726E-4841-8208-7523221CC328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0416693E-A71D-4CE1-B672-683B36D80966}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.hawkeslearning.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\Common\\Common\\Quant.Spice.Test.UI.Common.csproj
+		SccProjectName1 = ../../Common/Common
+		SccLocalPath1 = ..\\..\\Common\\Common
+		SccProjectUniqueName2 = ..\\..\\Common\\Common.Web\\Quant.Spice.Test.UI.Common.Web.csproj
+		SccProjectName2 = ../../Common/Common.Web
+		SccLocalPath2 = ..\\..\\Common\\Common.Web
+		SccProjectUniqueName3 = WritersMuse.csproj
+		SccLocalPath3 = .
+		SccProjectUniqueName4 = ..\\..\\..\\..\\Source\\Common\u0020Files\\Assemblies\\ExceptionHandling\\ExceptionHandling.vbproj
+		SccProjectName4 = ../../../../Source/Common\u0020Files/Assemblies/ExceptionHandling
+		SccLocalPath4 = ..\\..\\..\\..\\Source\\Common\u0020Files\\Assemblies\\ExceptionHandling
+		SccProjectUniqueName5 = ..\\..\\..\\..\\Source\\Common\u0020Files\\Assemblies\\QSpiceEncryption\\QSpiceEncryption.vbproj
+		SccProjectName5 = ../../../../Source/Common\u0020Files/Assemblies/QSpiceEncryption
+		SccLocalPath5 = ..\\..\\..\\..\\Source\\Common\u0020Files\\Assemblies\\QSpiceEncryption
+	EndGlobalSection
+EndGlobal

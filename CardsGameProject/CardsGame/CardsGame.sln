@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsGame", "CardsGame.csproj", "{F2647CB7-26BC-42AB-A2FB-DD1C84575E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\..\Common\Common\Common.csproj", "{15E23E54-5E53-41E4-9228-50CEB430C4D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Web", "..\..\Common\Common.Web\Common.Web.csproj", "{F1BE17EE-9C51-41B1-B326-A4A14501F7D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2647CB7-26BC-42AB-A2FB-DD1C84575E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2647CB7-26BC-42AB-A2FB-DD1C84575E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2647CB7-26BC-42AB-A2FB-DD1C84575E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2647CB7-26BC-42AB-A2FB-DD1C84575E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E23E54-5E53-41E4-9228-50CEB430C4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E23E54-5E53-41E4-9228-50CEB430C4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E23E54-5E53-41E4-9228-50CEB430C4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E23E54-5E53-41E4-9228-50CEB430C4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BE17EE-9C51-41B1-B326-A4A14501F7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BE17EE-9C51-41B1-B326-A4A14501F7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BE17EE-9C51-41B1-B326-A4A14501F7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BE17EE-9C51-41B1-B326-A4A14501F7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF83C305-69D7-47CF-90CD-5A78D9002B5D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.hawkeslearning.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\Common\\Common.Web\\Common.Web.csproj
+		SccProjectName1 = ../../Common/Common.Web
+		SccLocalPath1 = ..\\..\\Common\\Common.Web
+		SccProjectUniqueName2 = ..\\..\\Common\\Common\\Common.csproj
+		SccProjectName2 = ../../Common/Common
+		SccLocalPath2 = ..\\..\\Common\\Common
+		SccProjectUniqueName3 = CardsGame.csproj
+		SccLocalPath3 = .
+	EndGlobalSection
+EndGlobal

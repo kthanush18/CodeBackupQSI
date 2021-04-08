@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceProfessional", "SpiceProfessional.csproj", "{172CF66A-9D58-4BD1-9805-35898FEA5979}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QSpiceEncryption", "..\..\..\..\Source\Common Files\Assemblies\QSpiceEncryption\QSpiceEncryption.vbproj", "{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsUI", "..\..\Common\WindowsUI\WindowsUI.csproj", "{4A2E476F-5267-4DDB-BAF3-C48980F96B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quant.Spice.Test.UI.Common", "..\..\Common\Common\Quant.Spice.Test.UI.Common.csproj", "{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SpiceThesaurus", "..\..\..\..\Source\Common Files\Assemblies\SpiceThesaurus\SpiceThesaurus.vbproj", "{0AD58AD0-B636-4475-BA39-65B62DF12D60}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ServiceAccess", "..\..\..\..\Source\User Products\Components\ServiceAccess\ServiceAccess.vbproj", "{6C50D90D-A85D-4371-BEF0-C7A88BB41A00}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SpiceWordPrinter", "..\..\..\..\Source\User Products\Client Applications\Microsoft Word Add-Ins\SpiceWordPrinter\SpiceWordPrinter.vbproj", "{AB6FABFC-B9E4-4AA5-A921-5BEAAB5E8A39}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SpiceClientDebug", "..\..\..\..\Source\User Products\Client Applications\Assemblies\SpiceClientDebug\SpiceClientDebug.vbproj", "{F6095A39-0EAD-40B2-89A6-81C4FA922C31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9836817-2B52-484A-84B8-1542C9449FFE}"
+	ProjectSection(SolutionItems) = preProject
+		SpiceProfessional.testsettings = SpiceProfessional.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172CF66A-9D58-4BD1-9805-35898FEA5979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172CF66A-9D58-4BD1-9805-35898FEA5979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172CF66A-9D58-4BD1-9805-35898FEA5979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172CF66A-9D58-4BD1-9805-35898FEA5979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07D594E-47A1-4AEA-9DF9-1BACA0888E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2E476F-5267-4DDB-BAF3-C48980F96B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2E476F-5267-4DDB-BAF3-C48980F96B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2E476F-5267-4DDB-BAF3-C48980F96B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2E476F-5267-4DDB-BAF3-C48980F96B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DBC4FC-D93F-45BD-87F6-8BE5E61FB7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD58AD0-B636-4475-BA39-65B62DF12D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD58AD0-B636-4475-BA39-65B62DF12D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD58AD0-B636-4475-BA39-65B62DF12D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD58AD0-B636-4475-BA39-65B62DF12D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C50D90D-A85D-4371-BEF0-C7A88BB41A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C50D90D-A85D-4371-BEF0-C7A88BB41A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C50D90D-A85D-4371-BEF0-C7A88BB41A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C50D90D-A85D-4371-BEF0-C7A88BB41A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6FABFC-B9E4-4AA5-A921-5BEAAB5E8A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6FABFC-B9E4-4AA5-A921-5BEAAB5E8A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6FABFC-B9E4-4AA5-A921-5BEAAB5E8A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6FABFC-B9E4-4AA5-A921-5BEAAB5E8A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6095A39-0EAD-40B2-89A6-81C4FA922C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6095A39-0EAD-40B2-89A6-81C4FA922C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6095A39-0EAD-40B2-89A6-81C4FA922C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6095A39-0EAD-40B2-89A6-81C4FA922C31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0B0C908-E263-4D12-95AE-7A077D1F7996}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.hawkeslearning.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\..\\..\\Source\\Common\u0020Files\\Assemblies\\QSpiceEncryption\\QSpiceEncryption.vbproj
+		SccProjectName1 = ../../../../Source/Common\u0020Files/Assemblies/QSpiceEncryption
+		SccLocalPath1 = ..\\..\\..\\..\\Source\\Common\u0020Files\\Assemblies\\QSpiceEncryption
+		SccProjectUniqueName2 = ..\\..\\Common\\Common\\Quant.Spice.Test.UI.Common.csproj
+		SccProjectName2 = ../../Common/Common
+		SccLocalPath2 = ..\\..\\Common\\Common
+		SccProjectUniqueName3 = ..\\..\\Common\\WindowsUI\\WindowsUI.csproj
+		SccProjectName3 = ../../Common/WindowsUI
+		SccLocalPath3 = ..\\..\\Common\\WindowsUI
+		SccProjectUniqueName4 = SpiceProfessional.csproj
+		SccLocalPath4 = .
+		SccProjectUniqueName5 = ..\\..\\..\\..\\Source\\Common\u0020Files\\Assemblies\\SpiceThesaurus\\SpiceThesaurus.vbproj
+		SccProjectName5 = ../../../../Source/Common\u0020Files/Assemblies/SpiceThesaurus
+		SccLocalPath5 = ..\\..\\..\\..\\Source\\Common\u0020Files\\Assemblies\\SpiceThesaurus
+		SccProjectUniqueName6 = ..\\..\\..\\..\\Source\\User\u0020Products\\Components\\ServiceAccess\\ServiceAccess.vbproj
+		SccProjectName6 = ../../../../Source/User\u0020Products/Components/ServiceAccess
+		SccLocalPath6 = ..\\..\\..\\..\\Source\\User\u0020Products\\Components\\ServiceAccess
+		SccProjectUniqueName7 = ..\\..\\..\\..\\Source\\User\u0020Products\\Client\u0020Applications\\Microsoft\u0020Word\u0020Add-Ins\\SpiceWordPrinter\\SpiceWordPrinter.vbproj
+		SccProjectName7 = ../../../../Source/User\u0020Products/Client\u0020Applications/Microsoft\u0020Word\u0020Add-Ins/SpiceWordPrinter
+		SccLocalPath7 = ..\\..\\..\\..\\Source\\User\u0020Products\\Client\u0020Applications\\Microsoft\u0020Word\u0020Add-Ins\\SpiceWordPrinter
+		SccProjectUniqueName8 = ..\\..\\..\\..\\Source\\User\u0020Products\\Client\u0020Applications\\Assemblies\\SpiceClientDebug\\SpiceClientDebug.vbproj
+		SccProjectName8 = ../../../../Source/User\u0020Products/Client\u0020Applications/Assemblies/SpiceClientDebug
+		SccLocalPath8 = ..\\..\\..\\..\\Source\\User\u0020Products\\Client\u0020Applications\\Assemblies\\SpiceClientDebug
+	EndGlobalSection
+EndGlobal
